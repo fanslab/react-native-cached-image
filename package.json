@@ -1,6 +1,6 @@
 {
   "name": "react-native-cached-image",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "CachedImage component for react-native",
   "main": "index.js",
   "scripts": {
@@ -47,6 +47,8 @@
   ],
   "typings": "./index.d.ts",
   "dependencies": {
+
+    "@react-native-community/netinfo": "^2.0.0",
     "crypto-js": "3.1.9-1",
     "lodash": "4.17.4",
     "prop-types": "15.5.10",
@@ -55,14 +57,19 @@
     "url-parse": "1.1.9"
   },
   "devDependencies": {
-    "babel-jest": "^21.0.2",
-    "babel-preset-env": "*",
-    "babel-preset-react-native": "^3.0.2",
-    "jest": "^21.0.2",
-    "jest-react-native": "^18.0.0",
-    "react": "16.0.0-alpha.12",
-    "react-native": "^0.48.3",
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.0",
+    "@babel/runtime": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "^0.60.0",
     "react-test-renderer": "^15.6.1",
-    "regenerator-runtime": "^0.11.0"
+    "regenerator-runtime": "^0.11.0",
+    "schedule": "0.4.0"
   }
 }
