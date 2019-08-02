@@ -87,12 +87,12 @@ class CachedImage extends React.Component {
 
 
         // initial
-        NetInfo.fetch()
-            .then(state => {
-                this.safeSetState({
-                    networkAvailable: state.isConnected
-                });
-            });
+        // NetInfo.fetch()
+        //     .then(state => {
+        //         this.safeSetState({
+        //             networkAvailable: state.isConnected
+        //         });
+        //     });
 
         this.processSource(this.props.source);
     }
